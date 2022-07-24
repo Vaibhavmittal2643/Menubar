@@ -1,0 +1,400 @@
+header{
+
+    position: relative;
+    
+    top: 0; left: 0;right: 0;
+    
+    background: #fff;
+    
+    /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
+    
+    padding: 0px 1%;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    height: 155px;
+    
+    }
+    
+    .logoimg{
+    
+    height: 155px;
+    
+    width:250px ;
+    
+    border: px solid green;
+    
+    }
+    
+    nav{
+    
+    display: initial;
+    
+    }
+    
+    nav ul {
+    
+    list-style: none;
+    
+    float: left;
+    
+    position: relative;
+    
+    right: 100px;
+    
+    }
+    
+    nav ul li{
+    
+    position: relative;
+    
+    float: left;
+    
+    margin-top: 5%;
+    
+    }
+    
+    nav ul li a{
+    
+    border: px solid red;
+    
+    padding: 4px 12px;
+    
+    padding-bottom: 40px;
+    
+    /* FONTS */
+    
+    font-size: 14px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 600;
+    
+    color: #000000;
+    
+    text-decoration:none ;
+    
+    }
+    
+    nav ul li .contact{
+    
+    border: px solid red;
+    
+    padding: 15px 18px;
+    
+    border-radius: 6px;
+    
+    box-shadow: 2px 5px 10px rgba(0,0,0,.3);
+    
+    /* FONTS */
+    
+    font-size: 11px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: bold;
+    
+    color: #FFFFFF;
+    
+    background: #1d71b8;
+    
+    text-decoration:none ;
+    
+    }
+    
+    nav ul li a:hover{
+    
+    color: rgba(0,0,0,.6);
+    
+    transition: 0.5s;
+    
+    }
+    
+    .contact::before{
+    
+    background: rgba(255,255,255,0.9);
+    
+    width: 100%;
+    
+    }
+    
+    nav ul li .contact:hover{
+    
+    background: #48b4e0;
+    
+    color: lightgray;
+    
+    }
+    
+    .fa-phone{
+    
+    padding: 0px 10px 0px 0px;
+    
+    }
+    
+    .fa-magnifying-glass{
+    
+    font-size: 16px;
+    
+    }
+    
+    .fa-angle-down{
+    
+    font-size: 10px;
+    
+    padding: 0px 0px 0px 10px ;
+    
+    }
+    
+    nav ul li ul{
+    
+    position: absolute;
+    
+    left: 0; top: 40px;
+    
+    width: 300px;
+    
+    background: #ffffff;
+    
+    border-top: 3px solid #ec008b;;
+    
+    display: none;
+    
+    z-index: 100;
+    
+    }
+    
+    nav ul li:focus-within > ul,
+    
+    nav ul li:hover > ul{
+    
+    display: initial;
+    
+    transition: all 1s;
+    
+    }
+    
+    .bigdrop{
+    
+    width: 350px;
+    
+    }
+    
+    nav ul li ul li {
+    
+    width: 100%;
+    
+    line-height: 25px;
+    
+    left: 20px;
+    
+    }
+    
+    nav .sub-drop-menu{
+    
+    left: 50%;
+    
+    top: 0;
+    
+    border: px solid red;
+    
+    @media screen and (max-width:700px) {
+    
+    header{
+    
+    border: px solid green;
+    
+    height: 90px;
+    
+    }
+    
+    .logoimg{
+    
+    height: 100%;
+    
+    width:35% ;
+    
+    margin-left: 5%;
+    
+    border: px solid green;
+    
+    }
+    
+    header .checkbtn{
+    
+    display:initial;
+    
+    position: absolute;
+    
+    right: 25%;
+    
+    }
+    
+    nav ul {
+    
+    list-style: none;
+    
+    float: left;
+    
+    position: relative;
+    
+    right: 0px;
+    
+    width: 100%;
+    
+    border-top: 5px solid red;
+    
+    }
+    
+    header nav{
+    
+    position: absolute;
+    
+    top: 100%; right: 0;left: 0;
+    
+    background-color: #fff;
+    
+    width: 85%;
+    
+    margin: 0px auto;
+    
+    border-top: 1px solid rgba(0,0,0,.1);
+    
+    display: none;
+    
+    z-index: 1000;
+    
+    transition: 1s;
+    
+    }
+    
+    header nav ul li{
+    
+    width: 90%;
+    
+    left: 3%;
+    
+    }
+    
+    header nav ul li ul{
+    
+    position: relative;
+    
+    width: 100%;
+    
+    border-top:none ;
+    
+    top: 0;
+    
+    left: 10%;
+    
+    border: px solid red;
+    
+    }
+    
+    header nav ul li ul li{
+    
+    left: 0;
+    
+    }
+    
+    nav .sub-drop-menu{
+    
+    left: 0%;
+    
+    top: 0;
+    
+    border: px solid red;
+    
+    }
+    
+    header nav ul li ul li ul{
+    
+    width: 90%;
+    
+    left: 0;
+    
+    }
+    
+    nav ul li .contact{
+    
+    border: px solid red;
+    
+    padding: 15px 18px;
+    
+    border-radius: 6px;
+    
+    box-shadow: none;
+    
+    /* FONTS */
+    
+    font-size: 16px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 600;
+    
+    color: #000000;
+    
+    background: transparent;
+    
+    text-decoration:none ;
+    
+    }
+    
+    nav ul li a{
+    
+    border: px solid red;
+    
+    padding: 4px 12px;
+    
+    padding-bottom: 40px;
+    
+    /* FONTS */
+    
+    font-size: 16px;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-weight: 600;
+    
+    color: #000000;
+    
+    text-decoration:none ;
+    
+    }
+    
+    .responsive-remove{
+    
+    display: none;
+    
+    }
+    
+    .apps{
+    
+    display: none;
+    
+    }
+    
+    .accesibility a{
+    
+    display: none;
+    
+    }
+    
+    .accesibility{
+    
+    width: 15%;
+    
+    height: 55%;
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    align-items: center;
+    }
